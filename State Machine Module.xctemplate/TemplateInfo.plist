@@ -43,6 +43,28 @@
 				<string>StateMachine without Router</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewSubclass</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>What view class to subclass for the new scene</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>UIViewController</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Values</key>
+			<array>
+				<string>UIViewController</string>
+				<string>UITableViewController</string>
+				<string>UICollectionViewController</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>
