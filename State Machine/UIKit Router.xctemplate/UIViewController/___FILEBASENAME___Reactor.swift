@@ -6,9 +6,13 @@ final class ___VARIABLE_productName:identifier___Reactor: ReactorRepresentable, 
     // MARK: - Public properties
 
     // Architecture Scene properties
+    /// Состояние модуля
     @Published var state = State()
+    /// Сабжект для отправки Action
     let actionSubject = PassthroughSubject<Action, Never>()
+    /// Роутер модуля
     let router: ___VARIABLE_productName:identifier___Router
+    /// Интерактор модуля
     let interactor: ___VARIABLE_productName:identifier___Interactor
 
     // MARK: - Init
