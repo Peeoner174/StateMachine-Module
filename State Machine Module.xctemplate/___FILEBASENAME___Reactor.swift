@@ -43,7 +43,7 @@ extension ___VARIABLE_productName:identifier___Reactor {
     enum Mutation {}
 }
 
-extension RecommendationsReactor {
+extension ___VARIABLE_productName:identifier___Reactor {
     // MARK: - State
 
     struct State {}

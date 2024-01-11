@@ -41,8 +41,8 @@ final class ___VARIABLE_productName:identifier___ViewController: UIViewControlle
     private func configureView() {}
 }
 
-// MARK: - Constants
-
 private extension ___VARIABLE_productName:identifier___ViewController {
+    // MARK: - Constants
+
     enum Constants {}
 }
