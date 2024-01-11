@@ -2,7 +2,7 @@
 
 import Combine
 
-final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterRepresentable, SubscriptionStore {
+final class ___VARIABLE_productName:identifier___Reactor: ReactorRepresentable, SubscriptionStore {
     // MARK: - Public properties
 
     // Architecture Scene properties
@@ -13,7 +13,7 @@ final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterReprese
 
     // MARK: - Init
 
-    init(interactor: RecommendationsInteractor, router: ___VARIABLE_productName:identifier___Router) {
+    init(interactor: ___VARIABLE_productName:identifier___Interactor, router: ___VARIABLE_productName:identifier___Router) {
         self.router = router
         self.interactor = interactor
         self.stateEmitter()

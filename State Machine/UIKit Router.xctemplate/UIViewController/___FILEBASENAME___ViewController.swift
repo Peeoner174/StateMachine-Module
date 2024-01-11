@@ -2,7 +2,7 @@
 
 import UIKit
 
-final class ___VARIABLE_productName:identifier___ViewController: UIViewController, ViewReactorNoRouterRepresentable, SubscriptionStore {
+final class ___VARIABLE_productName:identifier___ViewController: UIViewController, ViewReactorRepresentable, SubscriptionStore {
     // MARK: - Public properties
 
     // Scene architectural entities
