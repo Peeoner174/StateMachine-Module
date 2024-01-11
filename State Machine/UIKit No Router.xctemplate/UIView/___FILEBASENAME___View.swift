@@ -15,20 +15,14 @@ final class ___VARIABLE_productName:identifier___View: UIView, ViewReactorNoRout
     init(reactor: ___VARIABLE_productName:identifier___Reactor) {
         self.reactor = reactor
         super.init(frame: .zero)
+        configureView()
+        bindAction()
+        bindState()
     }
 
     @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    // MARK: - Lifecycle
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        configureView()
-        bindAction()
-        bindState()
     }
 
     // MARK: - Public methods
@@ -42,7 +36,7 @@ final class ___VARIABLE_productName:identifier___View: UIView, ViewReactorNoRout
     private func configureView() {}
 }
 
-private extension ___VARIABLE_productName:identifier___ViewController {
+private extension ___VARIABLE_productName:identifier___View {
     // MARK: - Constants
 
     enum Constants {}

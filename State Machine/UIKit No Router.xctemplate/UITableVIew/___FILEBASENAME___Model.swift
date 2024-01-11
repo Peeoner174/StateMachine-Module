@@ -20,7 +20,7 @@ struct ___VARIABLE_productName:identifier___ContentViewData {
         let type: ItemType
     }
 
-    enum ContentType: String, Hashable {}
+    enum ContentType: Hashable {}
 
     enum ItemType: Hashable {}
 }

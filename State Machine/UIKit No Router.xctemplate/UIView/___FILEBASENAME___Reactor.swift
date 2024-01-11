@@ -12,7 +12,7 @@ final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterReprese
 
     // MARK: - Init
 
-    init(interactor: RecommendationsInteractor) {
+    init(interactor: ___VARIABLE_productName:identifier___Interactor) {
         self.interactor = interactor
         self.stateEmitter()
     }
