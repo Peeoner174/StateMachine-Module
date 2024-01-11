@@ -1,48 +1,15 @@
 //___FILEHEADER___
 
-import UIKit
+import SwiftUI
 
-final class ___VARIABLE_productName:identifier___ViewController: UIViewController, ViewReactorNoRouterRepresentable, SubscriptionStore {
-    // MARK: - Public properties
-
-    // Scene architectural entities
-    let reactor: ___VARIABLE_productName:identifier___Reactor
-
-    // MARK: - Private properties
-
+final class ___VARIABLE_productName:identifier___ViewController: UIHostingController<___VARIABLE_productName:identifier___View>, SUIViewControllerRepresentable {
     // MARK: - Init
 
-    init(reactor: ___VARIABLE_productName:identifier___Reactor) {
-        self.reactor = reactor
-        super.init(nibName: nil, bundle: nil)
+    init(baseView: ___VARIABLE_productName:identifier___View) {
+        super.init(rootView: baseView)
     }
 
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    @MainActor required dynamic init?(coder aDecoder: NSCoder) {
+        nil
     }
-
-    // MARK: - Lifecycle
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        configureView()
-        bindAction()
-        bindState()
-    }
-
-    // MARK: - Public methods
-
-    func bindState() {}
-
-    // MARK: - Private methods
-
-    private func bindAction() {}
-
-    private func configureView() {}
-}
-
-private extension ___VARIABLE_productName:identifier___ViewController {
-    // MARK: - Constants
-
-    enum Constants {}
 }

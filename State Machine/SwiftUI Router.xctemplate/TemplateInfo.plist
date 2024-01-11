@@ -24,25 +24,6 @@
 			<key>Default</key>
 			<string>StateMachineModule</string>
 		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>templateType</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Template type:</string>
-			<key>Description</key>
-			<string>The type of template to use</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>StateMachine with Router</string>
-			<key>Values</key>
-			<array>
-				<string>StateMachine with Router</string>
-				<string>StateMachine without Router</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>

@@ -2,18 +2,22 @@
 
 import Combine
 
-final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterRepresentable, SubscriptionStore {
+final class ___VARIABLE_productName:identifier___Reactor: SUIReactorRepresentable, SubscriptionStore {
     // MARK: - Public properties
-
+    
     // Architecture Scene properties
-    @Published var state = State()
-    let actionSubject = PassthroughSubject<Action, Never>()
-    let router: ___VARIABLE_productName:identifier___Router
+    /// Интерактор модуля
     let interactor: ___VARIABLE_productName:identifier___Interactor
+    /// Роутер модуля
+    let router: ___VARIABLE_productName:identifier___Router
+    /// Состояние модуля
+    @Published var state = State()
+    /// Сабжект для отправки Action
+    let actionSubject = PassthroughSubject<Action, Never>()
 
     // MARK: - Init
 
-    init(interactor: RecommendationsInteractor, router: ___VARIABLE_productName:identifier___Router) {
+    init(interactor: ___VARIABLE_productName:identifier___Interactor, router: ___VARIABLE_productName:identifier___Router) {
         self.router = router
         self.interactor = interactor
         self.stateEmitter()
@@ -21,10 +25,18 @@ final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterReprese
 
     // MARK: - Public methods
 
+    /// Мутация состояния экрана
+    /// - Parameter action: действие
+    /// - Returns: событие с мутацией
     func mutate(action: Action) -> AnyPublisher<Mutation, Never> {
         switch action {}
     }
 
+    /// Преобразование мутаций в новый стейт
+    /// - Parameters:
+    ///   - state: текущее состояние
+    ///   - mutation: мутация
+    /// - Returns: новое состояние
     func reduce(state: State, mutation: Mutation) -> State {
         var newState = state
         

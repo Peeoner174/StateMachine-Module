@@ -2,7 +2,7 @@
 
 import UIKit
 
-final class ___VARIABLE_productName:identifier___Router: ReactorRouterRepresentable {
+final class ___VARIABLE_productName:identifier___Router: SUIRouterRepresentable {
     // MARK: - Public properties
 
     // Scene architectural entities
@@ -18,8 +18,4 @@ final class ___VARIABLE_productName:identifier___Router: ReactorRouterRepresenta
     init(navigator: UINavigationController) {
         self.navigator = navigator
     }
-
-    // MARK: - Public methods
-
-    func bindState() {}
 }

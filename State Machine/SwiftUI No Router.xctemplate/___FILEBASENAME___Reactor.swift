@@ -4,25 +4,36 @@ import Combine
 
 final class ___VARIABLE_productName:identifier___Reactor: ReactorNoRouterRepresentable, SubscriptionStore {
     // MARK: - Public properties
-
+    
     // Architecture Scene properties
-    @Published var state = State()
-    let actionSubject = PassthroughSubject<Action, Never>()
+    /// Интерактор модуля
     let interactor: ___VARIABLE_productName:identifier___Interactor
+    /// Состояние модуля
+    @Published var state = State()
+    /// Сабжект для отправки Action
+    let actionSubject = PassthroughSubject<Action, Never>()
 
     // MARK: - Init
 
-    init(interactor: RecommendationsInteractor) {
+    init(interactor: ___VARIABLE_productName:identifier___Interactor) {
         self.interactor = interactor
         self.stateEmitter()
     }
 
     // MARK: - Public methods
 
+    /// Мутация состояния экрана
+    /// - Parameter action: действие
+    /// - Returns: событие с мутацией
     func mutate(action: Action) -> AnyPublisher<Mutation, Never> {
         switch action {}
     }
 
+    /// Преобразование мутаций в новый стейт
+    /// - Parameters:
+    ///   - state: текущее состояние
+    ///   - mutation: мутация
+    /// - Returns: новое состояние
     func reduce(state: State, mutation: Mutation) -> State {
         var newState = state
         
