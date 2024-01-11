@@ -53,16 +53,15 @@
 			<key>Description</key>
 			<string>What view class to subclass for the new scene</string>
 			<key>Type</key>
-			<string>class</string>
+			<string>popup</string>
 			<key>Default</key>
 			<string>UIViewController</string>
-			<key>NotPersisted</key>
-			<true/>
 			<key>Values</key>
 			<array>
+				<string>UICollectionView</string>
+				<string>UITableView</string>
+				<string>UIView</string>
 				<string>UIViewController</string>
-				<string>UITableViewController</string>
-				<string>UICollectionViewController</string>
 			</array>
 		</dict>
 	</array>
