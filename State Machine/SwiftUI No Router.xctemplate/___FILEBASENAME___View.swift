@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct ___VARIABLE_productName:identifier___View: View {
+struct ___VARIABLE_productName:identifier___View: View, SUIViewRepresentable {
     /// Сабджект для обработки действий
     let reactor: ___VARIABLE_productName:identifier___Reactor
     
