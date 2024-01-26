@@ -9,6 +9,8 @@
 
 Флоу выбора родительского класса показан на скринах ниже:
 
-[3](https://github.com/Peeoner174/StateMachine-Module/blob/main/Images/Флоу%20выбора%20родительского%20класса%201.png)
+![3](https://github.com/Peeoner174/StateMachine-Module/blob/main/Images/Флоу%20выбора%20родительского%20класса%201.png)
+
+
 ![1](/Images/Флоу выбора родительского класса 1.png "1")
 ![2](/Images/Флоу выбора родительского класса 2.png "2")
