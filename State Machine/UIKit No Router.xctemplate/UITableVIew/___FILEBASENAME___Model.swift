@@ -3,8 +3,8 @@
 import Foundation
 
 struct ___VARIABLE_productName:identifier___Model: Hashable {
-    let sectionType: ___VARIABLE_productName.Section
-    let items: [___VARIABLE_productName.Item]
+    let sectionType: ___VARIABLE_productName:identifier___ContentViewData.Section
+    let items: [___VARIABLE_productName:identifier___ContentViewData.Item]
 }
 
 struct ___VARIABLE_productName:identifier___ContentViewData {
