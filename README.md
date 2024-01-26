@@ -9,8 +9,6 @@
 
 Флоу выбора родительского класса показан на скринах ниже:
 
-![3](https://github.com/Peeoner174/StateMachine-Module/blob/main/Images/Флоу%20выбора%20родительского%20класса%201.png)
+<img src="[https://raw.githubusercontent.com/snpptsdev/snppts/main/src/Snppts/wwwroot/img/snppts_logo.png](https://github.com/Peeoner174/StateMachine-Module/blob/main/Images/Флоу%20выбора%20родительского%20класса%201.png)" width="300px" />
 
-
-![1](/Images/Флоу выбора родительского класса 1.png "1")
-![2](/Images/Флоу выбора родительского класса 2.png "2")
+<img src="[https://raw.githubusercontent.com/snpptsdev/snppts/main/src/Snppts/wwwroot/img/snppts_logo.png](https://github.com/Peeoner174/StateMachine-Module/blob/main/Images/Флоу%20выбора%20родительского%20класса%202.png)" width="300px" />
